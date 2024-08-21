@@ -1,0 +1,14 @@
+{
+  "logging": {
+    "path": "APILog.log"
+  },
+  "threading": {
+    "size": 10
+  },
+  "queue": {
+    "size": 100
+  },
+  "csv": {
+    "file_path": "data.csv"
+  }
+}

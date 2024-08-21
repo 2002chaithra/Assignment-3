@@ -1,0 +1,262 @@
+2024-08-21 15:54:40,080 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 15:54:40,080 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 15:54:40,086 INFO :  * Restarting with stat
+2024-08-21 15:54:41,037 WARNING :  * Debugger is active!
+2024-08-21 15:54:41,045 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 15:55:13,287 INFO : 127.0.0.1 - - [21/Aug/2024 15:55:13] "GET / HTTP/1.1" 200 -
+2024-08-21 15:57:07,311 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:07] "GET /insert HTTP/1.1" 200 -
+2024-08-21 15:57:13,493 INFO : Loaded records from CSV.
+2024-08-21 15:57:13,495 INFO : Saved records to CSV.
+2024-08-21 15:57:13,496 INFO : Inserted/Updated record for Rollno 10.
+2024-08-21 15:57:13,497 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:13] "POST /insert HTTP/1.1" 200 -
+2024-08-21 15:57:30,728 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:30] "GET /insert HTTP/1.1" 200 -
+2024-08-21 15:57:33,610 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:33] "GET /remove HTTP/1.1" 200 -
+2024-08-21 15:57:37,935 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 15:57:37,937 INFO : Loaded records from CSV.
+2024-08-21 15:57:37,938 WARNING : Record with Rollno 43 not found for deletion.
+2024-08-21 15:57:37,939 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:37] "DELETE /remove/43 HTTP/1.1" 200 -
+2024-08-21 15:57:37,939 DEBUG : http://127.0.0.1:5000 "DELETE /remove/43 HTTP/11" 200 79
+2024-08-21 15:57:37,941 INFO : Requested removal of record for Rollno 43.
+2024-08-21 15:57:37,941 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:37] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 15:57:37,956 INFO : Loaded records from CSV.
+2024-08-21 15:57:37,957 WARNING : Record with Rollno 43 not found for deletion.
+2024-08-21 15:57:37,957 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:37] "GET /remove/43 HTTP/1.1" 200 -
+2024-08-21 15:57:44,751 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 15:57:44,754 INFO : Loaded records from CSV.
+2024-08-21 15:57:44,756 INFO : Saved records to CSV.
+2024-08-21 15:57:44,758 INFO : Deleted record for Rollno 4.
+2024-08-21 15:57:44,758 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:44] "DELETE /remove/4 HTTP/1.1" 200 -
+2024-08-21 15:57:44,760 DEBUG : http://127.0.0.1:5000 "DELETE /remove/4 HTTP/11" 200 70
+2024-08-21 15:57:44,761 INFO : Requested removal of record for Rollno 4.
+2024-08-21 15:57:44,762 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:44] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 15:57:44,789 INFO : Loaded records from CSV.
+2024-08-21 15:57:44,790 WARNING : Record with Rollno 4 not found for deletion.
+2024-08-21 15:57:44,791 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:44] "GET /remove/4 HTTP/1.1" 200 -
+2024-08-21 15:57:56,080 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 15:57:56,082 INFO : Loaded records from CSV.
+2024-08-21 15:57:56,082 WARNING : Record with Rollno 4 not found for deletion.
+2024-08-21 15:57:56,082 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:56] "DELETE /remove/4 HTTP/1.1" 200 -
+2024-08-21 15:57:56,083 DEBUG : http://127.0.0.1:5000 "DELETE /remove/4 HTTP/11" 200 79
+2024-08-21 15:57:56,085 INFO : Requested removal of record for Rollno 4.
+2024-08-21 15:57:56,085 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:56] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 15:57:56,095 INFO : Loaded records from CSV.
+2024-08-21 15:57:56,095 WARNING : Record with Rollno 4 not found for deletion.
+2024-08-21 15:57:56,095 INFO : 127.0.0.1 - - [21/Aug/2024 15:57:56] "GET /remove/4 HTTP/1.1" 200 -
+2024-08-21 15:58:04,225 INFO : Loaded records from CSV.
+2024-08-21 15:58:04,225 WARNING : Record with Rollno 4 not found for deletion.
+2024-08-21 15:58:04,226 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:04] "GET /remove/4 HTTP/1.1" 200 -
+2024-08-21 15:58:09,705 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:09] "GET /remove HTTP/1.1" 200 -
+2024-08-21 15:58:15,663 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 15:58:15,666 INFO : Loaded records from CSV.
+2024-08-21 15:58:15,667 WARNING : Record with Rollno 4 not found for deletion.
+2024-08-21 15:58:15,667 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:15] "DELETE /remove/4 HTTP/1.1" 200 -
+2024-08-21 15:58:15,669 DEBUG : http://127.0.0.1:5000 "DELETE /remove/4 HTTP/11" 200 79
+2024-08-21 15:58:15,670 INFO : Requested removal of record for Rollno 4.
+2024-08-21 15:58:15,670 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:15] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 15:58:15,686 INFO : Loaded records from CSV.
+2024-08-21 15:58:15,686 WARNING : Record with Rollno 4 not found for deletion.
+2024-08-21 15:58:15,687 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:15] "GET /remove/4 HTTP/1.1" 200 -
+2024-08-21 15:58:29,719 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 15:58:29,721 INFO : Loaded records from CSV.
+2024-08-21 15:58:29,723 INFO : Saved records to CSV.
+2024-08-21 15:58:29,723 INFO : Deleted record for Rollno 5.
+2024-08-21 15:58:29,723 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:29] "DELETE /remove/5 HTTP/1.1" 200 -
+2024-08-21 15:58:29,724 DEBUG : http://127.0.0.1:5000 "DELETE /remove/5 HTTP/11" 200 70
+2024-08-21 15:58:29,725 INFO : Requested removal of record for Rollno 5.
+2024-08-21 15:58:29,725 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:29] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 15:58:29,734 INFO : Loaded records from CSV.
+2024-08-21 15:58:29,735 WARNING : Record with Rollno 5 not found for deletion.
+2024-08-21 15:58:29,735 INFO : 127.0.0.1 - - [21/Aug/2024 15:58:29] "GET /remove/5 HTTP/1.1" 200 -
+2024-08-21 16:48:26,225 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 16:48:26,226 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 16:48:26,234 INFO :  * Restarting with stat
+2024-08-21 16:48:27,493 WARNING :  * Debugger is active!
+2024-08-21 16:48:27,504 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 16:48:30,855 INFO : 127.0.0.1 - - [21/Aug/2024 16:48:30] "GET / HTTP/1.1" 200 -
+2024-08-21 16:48:32,929 INFO : 127.0.0.1 - - [21/Aug/2024 16:48:32] "GET /remove HTTP/1.1" 200 -
+2024-08-21 16:48:36,884 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 16:48:36,887 INFO : Loaded records from CSV.
+2024-08-21 16:48:36,914 INFO : 127.0.0.1 - - [21/Aug/2024 16:48:36] "[35m[1mDELETE /remove/6 HTTP/1.1[0m" 500 -
+2024-08-21 16:48:36,915 DEBUG : http://127.0.0.1:5000 "DELETE /remove/6 HTTP/11" 500 20352
+2024-08-21 16:48:36,917 INFO : Requested removal of record for Rollno 6.
+2024-08-21 16:48:36,918 INFO : 127.0.0.1 - - [21/Aug/2024 16:48:36] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 16:48:36,933 INFO : Loaded records from CSV.
+2024-08-21 16:48:36,933 WARNING : Record with Rollno 6 not found for deletion.
+2024-08-21 16:48:36,934 INFO : 127.0.0.1 - - [21/Aug/2024 16:48:36] "GET /remove/6 HTTP/1.1" 200 -
+2024-08-21 16:49:41,719 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 16:49:41,719 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 16:49:41,726 INFO :  * Restarting with stat
+2024-08-21 16:49:42,865 WARNING :  * Debugger is active!
+2024-08-21 16:49:42,875 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 16:49:45,014 INFO : 127.0.0.1 - - [21/Aug/2024 16:49:45] "GET / HTTP/1.1" 200 -
+2024-08-21 16:49:47,396 INFO : 127.0.0.1 - - [21/Aug/2024 16:49:47] "GET /remove HTTP/1.1" 200 -
+2024-08-21 16:50:04,494 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 16:50:04,504 INFO : Loaded records from CSV.
+2024-08-21 16:50:04,564 INFO : 127.0.0.1 - - [21/Aug/2024 16:50:04] "[35m[1mDELETE /remove/1 HTTP/1.1[0m" 500 -
+2024-08-21 16:50:04,567 DEBUG : http://127.0.0.1:5000 "DELETE /remove/1 HTTP/11" 500 20352
+2024-08-21 16:50:04,570 INFO : Requested removal of record for Rollno 1.
+2024-08-21 16:50:04,571 INFO : 127.0.0.1 - - [21/Aug/2024 16:50:04] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 16:50:04,613 INFO : Loaded records from CSV.
+2024-08-21 16:50:04,615 WARNING : Record with Rollno 1 not found for deletion.
+2024-08-21 16:50:04,615 INFO : 127.0.0.1 - - [21/Aug/2024 16:50:04] "GET /remove/1 HTTP/1.1" 200 -
+2024-08-21 16:52:55,210 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 16:52:55,210 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 16:52:55,219 INFO :  * Restarting with stat
+2024-08-21 16:52:56,381 WARNING :  * Debugger is active!
+2024-08-21 16:52:56,392 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 16:52:58,617 INFO : 127.0.0.1 - - [21/Aug/2024 16:52:58] "GET / HTTP/1.1" 200 -
+2024-08-21 16:53:00,997 INFO : 127.0.0.1 - - [21/Aug/2024 16:53:00] "GET /remove HTTP/1.1" 200 -
+2024-08-21 16:53:15,957 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 16:53:15,961 INFO : Loaded records from CSV.
+2024-08-21 16:53:15,962 INFO : Saved records to CSV.
+2024-08-21 16:53:15,962 INFO : Deleted record for Rollno 1.
+2024-08-21 16:53:15,963 INFO : 127.0.0.1 - - [21/Aug/2024 16:53:15] "DELETE /remove/1 HTTP/1.1" 200 -
+2024-08-21 16:53:15,963 DEBUG : http://127.0.0.1:5000 "DELETE /remove/1 HTTP/11" 200 70
+2024-08-21 16:53:15,964 INFO : Requested removal of record for Rollno 1.
+2024-08-21 16:53:15,964 INFO : 127.0.0.1 - - [21/Aug/2024 16:53:15] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 16:53:15,977 INFO : Loaded records from CSV.
+2024-08-21 16:53:15,977 WARNING : Record with Rollno 1 not found for deletion.
+2024-08-21 16:53:15,977 INFO : 127.0.0.1 - - [21/Aug/2024 16:53:15] "GET /remove/1 HTTP/1.1" 200 -
+2024-08-21 16:54:00,082 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 16:54:00,082 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 16:54:00,091 INFO :  * Restarting with stat
+2024-08-21 16:54:01,271 WARNING :  * Debugger is active!
+2024-08-21 16:54:01,282 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 16:54:03,019 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:03] "GET / HTTP/1.1" 200 -
+2024-08-21 16:54:05,049 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:05] "GET /remove HTTP/1.1" 200 -
+2024-08-21 16:54:08,890 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 16:54:08,898 INFO : Loaded records from CSV.
+2024-08-21 16:54:08,902 INFO : Saved records to CSV.
+2024-08-21 16:54:08,903 INFO : Deleted record for Rollno 2.
+2024-08-21 16:54:08,904 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:08] "DELETE /remove/2 HTTP/1.1" 200 -
+2024-08-21 16:54:08,906 DEBUG : http://127.0.0.1:5000 "DELETE /remove/2 HTTP/11" 200 70
+2024-08-21 16:54:08,909 INFO : Requested removal of record for Rollno 2.
+2024-08-21 16:54:08,911 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:08] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 16:54:08,955 INFO : Loaded records from CSV.
+2024-08-21 16:54:08,959 INFO : Saved records to CSV.
+2024-08-21 16:54:08,962 WARNING : Record with Rollno 2 not found for deletion.
+2024-08-21 16:54:08,964 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:08] "GET /remove/2 HTTP/1.1" 200 -
+2024-08-21 16:54:34,753 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 16:54:34,768 INFO : Loaded records from CSV.
+2024-08-21 16:54:34,773 INFO : Saved records to CSV.
+2024-08-21 16:54:34,775 INFO : Deleted record for Rollno 3.
+2024-08-21 16:54:34,777 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:34] "DELETE /remove/3 HTTP/1.1" 200 -
+2024-08-21 16:54:34,779 DEBUG : http://127.0.0.1:5000 "DELETE /remove/3 HTTP/11" 200 70
+2024-08-21 16:54:34,782 INFO : Requested removal of record for Rollno 3.
+2024-08-21 16:54:34,784 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:34] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 16:54:34,832 INFO : Loaded records from CSV.
+2024-08-21 16:54:34,836 INFO : Saved records to CSV.
+2024-08-21 16:54:34,838 WARNING : Record with Rollno 3 not found for deletion.
+2024-08-21 16:54:34,840 INFO : 127.0.0.1 - - [21/Aug/2024 16:54:34] "GET /remove/3 HTTP/1.1" 200 -
+2024-08-21 17:02:27,796 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 17:02:27,796 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 17:02:27,804 INFO :  * Restarting with stat
+2024-08-21 17:02:28,972 WARNING :  * Debugger is active!
+2024-08-21 17:02:28,982 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 17:02:31,155 INFO : 127.0.0.1 - - [21/Aug/2024 17:02:31] "GET / HTTP/1.1" 200 -
+2024-08-21 17:02:33,210 INFO : 127.0.0.1 - - [21/Aug/2024 17:02:33] "GET /remove HTTP/1.1" 200 -
+2024-08-21 17:02:41,074 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 17:02:41,077 INFO : Loaded records from CSV.
+2024-08-21 17:02:41,079 INFO : Saved records to CSV.
+2024-08-21 17:02:41,080 INFO : Deleted record for Rollno 11.
+2024-08-21 17:02:41,080 INFO : 127.0.0.1 - - [21/Aug/2024 17:02:41] "DELETE /remove/11 HTTP/1.1" 200 -
+2024-08-21 17:02:41,082 DEBUG : http://127.0.0.1:5000 "DELETE /remove/11 HTTP/11" 200 70
+2024-08-21 17:02:41,083 INFO : Requested removal of record for Rollno 11.
+2024-08-21 17:02:41,083 INFO : 127.0.0.1 - - [21/Aug/2024 17:02:41] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 17:02:41,102 INFO : Loaded records from CSV.
+2024-08-21 17:02:41,103 INFO : Saved records to CSV.
+2024-08-21 17:02:41,105 WARNING : Record with Rollno 11 not found for deletion.
+2024-08-21 17:02:41,105 INFO : 127.0.0.1 - - [21/Aug/2024 17:02:41] "GET /remove/11 HTTP/1.1" 200 -
+2024-08-21 17:04:27,116 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 17:04:27,116 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 17:04:27,123 INFO :  * Restarting with stat
+2024-08-21 17:04:28,167 WARNING :  * Debugger is active!
+2024-08-21 17:04:28,175 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 17:04:35,475 INFO : 127.0.0.1 - - [21/Aug/2024 17:04:35] "GET / HTTP/1.1" 200 -
+2024-08-21 17:04:37,246 INFO : 127.0.0.1 - - [21/Aug/2024 17:04:37] "GET /remove HTTP/1.1" 200 -
+2024-08-21 17:04:41,641 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 17:04:41,644 INFO : Loaded records from CSV.
+2024-08-21 17:04:41,646 INFO : Saved records to CSV.
+2024-08-21 17:04:41,647 INFO : Deleted record for Rollno 10.
+2024-08-21 17:04:41,648 INFO : 127.0.0.1 - - [21/Aug/2024 17:04:41] "DELETE /remove/10 HTTP/1.1" 200 -
+2024-08-21 17:04:41,649 DEBUG : http://127.0.0.1:5000 "DELETE /remove/10 HTTP/11" 200 70
+2024-08-21 17:04:41,650 INFO : Requested removal of record for Rollno 10.
+2024-08-21 17:04:41,651 INFO : 127.0.0.1 - - [21/Aug/2024 17:04:41] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 17:04:41,672 INFO : Loaded records from CSV.
+2024-08-21 17:04:41,673 INFO : Saved records to CSV.
+2024-08-21 17:04:41,674 WARNING : Record with Rollno 10 not found for deletion.
+2024-08-21 17:04:41,674 INFO : 127.0.0.1 - - [21/Aug/2024 17:04:41] "GET /remove/10 HTTP/1.1" 200 -
+2024-08-21 17:07:28,276 INFO :  * Detected change in 'C:\\Users\\chaithra.ramdas\\PycharmProjects\\Assignment 3\\Assignment 3.py', reloading
+2024-08-21 17:07:28,410 INFO :  * Restarting with stat
+2024-08-21 17:49:39,078 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-21 17:49:39,079 INFO : [33mPress CTRL+C to quit[0m
+2024-08-21 17:49:39,088 INFO :  * Restarting with stat
+2024-08-21 17:49:40,128 WARNING :  * Debugger is active!
+2024-08-21 17:49:40,136 INFO :  * Debugger PIN: 100-393-504
+2024-08-21 17:49:41,731 INFO : 127.0.0.1 - - [21/Aug/2024 17:49:41] "GET / HTTP/1.1" 200 -
+2024-08-21 17:49:43,733 INFO : 127.0.0.1 - - [21/Aug/2024 17:49:43] "GET /remove HTTP/1.1" 200 -
+2024-08-21 17:49:49,044 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 17:49:49,048 INFO : Loaded records from CSV.
+2024-08-21 17:49:49,050 INFO : Saved records to CSV.
+2024-08-21 17:49:49,050 INFO : Deleted record for Rollno 12.
+2024-08-21 17:49:49,051 INFO : 127.0.0.1 - - [21/Aug/2024 17:49:49] "DELETE /remove/12 HTTP/1.1" 200 -
+2024-08-21 17:49:49,052 DEBUG : http://127.0.0.1:5000 "DELETE /remove/12 HTTP/11" 200 70
+2024-08-21 17:49:49,053 INFO : Requested removal of record for Rollno 12.
+2024-08-21 17:49:49,053 INFO : 127.0.0.1 - - [21/Aug/2024 17:49:49] "[32mPOST /remove HTTP/1.1[0m" 302 -
+2024-08-21 17:49:49,069 INFO : Loaded records from CSV.
+2024-08-21 17:49:49,071 INFO : Saved records to CSV.
+2024-08-21 17:49:49,072 INFO : Deleted record for Rollno 12.
+2024-08-21 17:49:49,072 INFO : 127.0.0.1 - - [21/Aug/2024 17:49:49] "GET /remove/12 HTTP/1.1" 200 -
+2024-08-21 17:50:48,039 INFO : 127.0.0.1 - - [21/Aug/2024 17:50:48] "GET /insert HTTP/1.1" 200 -
+2024-08-21 17:50:55,777 INFO : Loaded records from CSV.
+2024-08-21 17:50:55,779 INFO : Saved records to CSV.
+2024-08-21 17:50:55,779 INFO : Inserted/Updated record for Rollno 5.
+2024-08-21 17:50:55,780 INFO : 127.0.0.1 - - [21/Aug/2024 17:50:55] "POST /insert HTTP/1.1" 200 -
+2024-08-21 17:50:57,433 INFO : 127.0.0.1 - - [21/Aug/2024 17:50:57] "GET /insert HTTP/1.1" 200 -
+2024-08-21 17:51:00,002 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:00] "GET /update HTTP/1.1" 200 -
+2024-08-21 17:51:08,466 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 17:51:08,468 INFO : Loaded records from CSV.
+2024-08-21 17:51:08,470 INFO : Saved records to CSV.
+2024-08-21 17:51:08,470 INFO : Updated record for Rollno 5.
+2024-08-21 17:51:08,470 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:08] "PUT /update HTTP/1.1" 200 -
+2024-08-21 17:51:08,472 DEBUG : http://127.0.0.1:5000 "PUT /update HTTP/11" 200 70
+2024-08-21 17:51:08,473 INFO : Requested update for Rollno 5.
+2024-08-21 17:51:08,474 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:08] "POST /update HTTP/1.1" 200 -
+2024-08-21 17:51:11,538 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:11] "GET /update HTTP/1.1" 200 -
+2024-08-21 17:51:19,843 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:19] "GET /read HTTP/1.1" 200 -
+2024-08-21 17:51:28,274 DEBUG : Starting new HTTP connection (1): 127.0.0.1:5000
+2024-08-21 17:51:28,277 INFO : Loaded records from CSV.
+2024-08-21 17:51:28,277 INFO : Record for Rollno 5 retrieved.
+2024-08-21 17:51:28,277 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:28] "GET /read/5 HTTP/1.1" 200 -
+2024-08-21 17:51:28,278 DEBUG : http://127.0.0.1:5000 "GET /read/5 HTTP/11" 200 99
+2024-08-21 17:51:28,279 INFO : Requested read for Rollno 5.
+2024-08-21 17:51:28,279 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:28] "[32mPOST /read HTTP/1.1[0m" 302 -
+2024-08-21 17:51:28,292 INFO : Loaded records from CSV.
+2024-08-21 17:51:28,292 INFO : Record for Rollno 5 retrieved.
+2024-08-21 17:51:28,293 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:28] "GET /read/5 HTTP/1.1" 200 -
+2024-08-21 17:51:36,633 INFO : Data queued for processing.
+2024-08-21 17:51:36,633 DEBUG : Calculated average for Rollno 6: 84.0
+2024-08-21 17:51:36,633 DEBUG : Calculated average for Rollno 7: 79.33
+2024-08-21 17:51:36,635 DEBUG : Calculated average for Rollno 8: 84.33
+2024-08-21 17:51:36,635 DEBUG : Calculated average for Rollno 9: 72.67
+2024-08-21 17:51:36,635 DEBUG : Calculated average for Rollno 13: 77.67
+2024-08-21 17:51:36,635 DEBUG : Calculated average for Rollno 14: 81.33
+2024-08-21 17:51:36,636 DEBUG : Calculated average for Rollno 15: 72.33
+2024-08-21 17:51:36,636 DEBUG : Calculated average for Rollno 16: 84.0
+2024-08-21 17:51:36,636 DEBUG : Calculated average for Rollno 17: 79.33
+2024-08-21 17:51:36,637 DEBUG : Calculated average for Rollno 18: 84.33
+2024-08-21 17:51:36,638 DEBUG : Calculated average for Rollno 19: 72.67
+2024-08-21 17:51:36,638 DEBUG : Calculated average for Rollno 20: 77.67
+2024-08-21 17:51:36,638 DEBUG : Calculated average for Rollno 5: 37.67
+2024-08-21 17:51:36,641 INFO : Calculated averages for all students.
+2024-08-21 17:51:36,641 INFO : 127.0.0.1 - - [21/Aug/2024 17:51:36] "GET /average HTTP/1.1" 200 -
+2024-08-21 17:52:28,839 INFO : 127.0.0.1 - - [21/Aug/2024 17:52:28] "GET / HTTP/1.1" 200 -
+2024-08-21 17:52:50,614 INFO : 127.0.0.1 - - [21/Aug/2024 17:52:50] "GET /insert HTTP/1.1" 200 -
